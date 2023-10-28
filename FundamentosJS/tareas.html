@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas con JS</title>
+</head>
+<style>
+    .content{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .content div {
+        width: 45%;
+        padding: 20px;
+        background-color: rgb(32, 129, 97);
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+</style>
+
+<body>
+    
+    <div class="container">
+        <h1>Lista de tareas</h1>
+        <div id="formulario">
+            <textarea name="" id="inputTarea" cols="30" rows="10">      
+            </textarea>
+            <button onclick="addTarea()">Agregar Tarea</button>
+        </div>
+        <div id="tareas">
+            
+            <ul>
+
+            </ul>
+        </div>
+        <script src="./tareas.js"></script>
+    </div> 
+</body>
+</html>
